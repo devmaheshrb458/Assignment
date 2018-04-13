@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar.elevation">4dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="widget.padding.small">4dp</dimen>
+    <dimen name="widget.padding.medium">6dp</dimen>
+    <dimen name="widget.padding.large">8dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="widget.margin.small">6dp</dimen>
+    <dimen name="widget.margin.medium">8dp</dimen>
+    <dimen name="widget.margin.large">10dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text.small">10sp</dimen>
+    <dimen name="text.medium">12sp</dimen>
+    <dimen name="text.large">16sp</dimen>
+
+    <!-- Facts lists-->
+    <dimen name="facts.list_item.image.height">80dp</dimen>
+    <dimen name="facts.list_item.image.width">100dp</dimen>
+    <dimen name="facts.list_item.right_arrow.width">14dp</dimen>
+    <dimen name="facts.list_item.corner_radius">4dp</dimen>
+    <dimen name="facts.list_item.elevation">4dp</dimen>
+
+</resources>

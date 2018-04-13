@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF3F51B5</color>
-    <color name="colorPrimaryDark">#FF303F9F</color>
-    <color name="colorAccent">#FFFF4081</color>
+    <color name="colorPrimary">#FFC4C5C6</color>
+    <color name="colorPrimaryDark">#FF8A8B8C</color>
+    <color name="colorAccent">#FFB8BABC</color>
+
+    <!-- State colors -->
+    <color name="color.statePressed">#FFF2F4F7</color>
+
+    <color name="colorAero">#FF549FD8</color>
+
+    <!-- Facts item background color -->
+    <color name="facts.item.start_color">#FFF2F4F7</color>
+    <color name="facts.item.center_color">#FFFCFCFC</color>
+    <color name="facts.item.end_color">#FFFCFCFC</color>
+
+
 </resources>

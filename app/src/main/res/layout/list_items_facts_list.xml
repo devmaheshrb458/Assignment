@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/facts.list_item.corner_radius"
+    app:cardElevation="@dimen/facts.list_item.elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_fact_list_item"
+        android:padding="@dimen/widget.padding.medium">
+
+        <ImageView
+            android:id="@+id/imgRightArrow"
+            android:layout_width="@dimen/facts.list_item.right_arrow.width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_right_arrow"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textFactTitle"
+            style="@style/TextAppearance.aero.large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget.margin.small"
+            android:layout_marginEnd="@dimen/widget.margin.small"
+            android:layout_marginRight="@dimen/widget.margin.small"
+            android:layout_toLeftOf="@id/imgRightArrow"
+            android:layout_toStartOf="@id/imgRightArrow"
+            android:textStyle="bold"
+            tools:text="Title" />
+
+        <ImageView
+            android:id="@+id/imageFact"
+            android:layout_width="@dimen/facts.list_item.image.width"
+            android:layout_height="@dimen/facts.list_item.image.height"
+            android:layout_alignEnd="@id/textFactTitle"
+            android:layout_alignRight="@id/textFactTitle"
+            android:layout_below="@id/textFactTitle"
+            android:layout_marginLeft="@dimen/widget.margin.small"
+            android:layout_marginStart="@dimen/widget.margin.small"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textFactDescription"
+            style="@style/TextAppearance.medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textFactTitle"
+            android:layout_toLeftOf="@id/imageFact"
+            android:layout_toStartOf="@id/imageFact"
+            tools:text="Description" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

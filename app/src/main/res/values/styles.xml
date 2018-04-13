@@ -1,3 +1,39 @@
 <resources>
 
+    <!-- Application Toolbar-->
+    <style name="AppToolbar" parent="Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <!-- Text Appearance -->
+    <style name="TextAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="TextAppearance.small">
+        <item name="android:textSize">@dimen/text.small</item>
+    </style>
+    <style name="TextAppearance.medium">
+        <item name="android:textSize">@dimen/text.medium</item>
+    </style>
+    <style name="TextAppearance.large">
+        <item name="android:textSize">@dimen/text.large</item>
+    </style>
+
+    <!-- Text with aero color -->
+    <style name="TextAppearance.aero">
+        <item name="android:textColor">@color/colorAero</item>
+    </style>
+    <style name="TextAppearance.aero.small">
+        <item name="android:textSize">@dimen/text.small</item>
+    </style>
+    <style name="TextAppearance.aero.medium">
+        <item name="android:textSize">@dimen/text.medium</item>
+    </style>
+    <style name="TextAppearance.aero.large">
+        <item name="android:textSize">@dimen/text.large</item>
+    </style>
+
+
+
+
+
 </resources>
