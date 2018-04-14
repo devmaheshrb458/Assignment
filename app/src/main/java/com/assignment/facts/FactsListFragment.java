@@ -1,5 +1,7 @@
 package com.assignment.facts;
 
+import android.arch.lifecycle.Observer;
+import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -13,6 +15,11 @@ import android.widget.TextView;
 
 import com.assignment.R;
 import com.assignment.base.SupportFragment;
+import com.assignment.facts.dto.Facts;
+import com.assignment.facts.dto.FactsResponse;
+import com.assignment.facts.viewmodel.FactsViewModel;
+
+import java.util.ArrayList;
 
 /**
  * <p>
@@ -64,6 +71,8 @@ public class FactsListFragment extends SupportFragment {
         this.recycleListFacts.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         setViewDefaultStateOnStart();
+
+        startObservingData();
     }
 
     /**
@@ -73,6 +82,33 @@ public class FactsListFragment extends SupportFragment {
         this.swipeRefreshFacts.setEnabled(false);
         this.progressBar.setVisibility(View.GONE);
         this.textErrorMessage.setVisibility(View.GONE);
+    }
+
+    /**
+     * Start observing data. We will get event when the corresponding data changed
+     */
+    private void startObservingData(){
+        FactsViewModel factsViewModel = ViewModelProviders.of(this).get(FactsViewModel.class);
+        factsViewModel.getFactsResponse().observe(this, new Observer<FactsResponse>() {
+            @Override
+            public void onChanged(@Nullable FactsResponse factsResponse) {
+
+            }
+        });
+
+        factsViewModel.getIsLoading().observe(this, new Observer<Boolean>() {
+            @Override
+            public void onChanged(@Nullable Boolean aBoolean) {
+
+            }
+        });
+
+        factsViewModel.getIsError().observe(this, new Observer<Throwable>() {
+            @Override
+            public void onChanged(@Nullable Throwable throwable) {
+
+            }
+        });
     }
 
 }
