@@ -15,7 +15,7 @@ public class FactsResponse {
     private String title;
 
     @SerializedName("rows")
-    private ArrayList<Facts> factsList;
+    private ArrayList<Fact> factsList;
 
     public String getTitle() {
         return title;
@@ -25,11 +25,11 @@ public class FactsResponse {
         this.title = title;
     }
 
-    public ArrayList<Facts> getFactsList() {
+    public ArrayList<Fact> getFactsList() {
         return factsList;
     }
 
-    public void setFactsList(ArrayList<Facts> factsList) {
+    public void setFactsList(ArrayList<Fact> factsList) {
         this.factsList = factsList;
     }
 }

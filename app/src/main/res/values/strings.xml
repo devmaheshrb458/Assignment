@@ -2,6 +2,13 @@
     <string name="app_name">Assignment</string>
 
     <!-- Common strings -->
-    <string name="no_internet_connection.list">No internet connection available. Please click here to retry.</string>
+    <string name="not_available">N/A</string>
+    <string name="no_internet_connection.list">No internet connection. Please click here to retry.</string>
+    <string name="no_internet_connection.snackBar">No internet connection.</string>
+    <string name="no_data_available">No data available.</string>
+
+    <!-- Facts String-->
+    <string name="facts.error.unable_to_get">Unable to get facts. Please click here to retry.</string>
+    <string name="facts.error.unable_to_refresh">Unable to get facts.</string>
 
 </resources>

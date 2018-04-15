@@ -10,9 +10,9 @@
     <color name="colorAero">#FF549FD8</color>
 
     <!-- Facts item background color -->
-    <color name="facts.item.start_color">#FFF2F4F7</color>
-    <color name="facts.item.center_color">#FFFCFCFC</color>
-    <color name="facts.item.end_color">#FFFCFCFC</color>
+    <color name="fact.item.start_color">#FFF2F4F7</color>
+    <color name="fact.item.center_color">#FFFCFCFC</color>
+    <color name="fact.item.end_color">#FFFCFCFC</color>
 
 
 </resources>

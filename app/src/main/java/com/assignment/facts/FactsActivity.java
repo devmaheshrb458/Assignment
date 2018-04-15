@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.assignment.R;
 
 /**
- * Activity that will host Facts list Fragment {@link FactsListFragment}.
+ * Activity that will host Fact list Fragment {@link FactsListFragment}.
  *
  * @author Mahesh R Bhatkande (mahesh.bhatkande@infosys.com)
  * @since 13 Apr, 2018
@@ -24,7 +24,7 @@ public class FactsActivity extends AppCompatActivity {
     }
 
     /**
-     * Add Facts list fragment {@link FactsListFragment}
+     * Add Fact list fragment {@link FactsListFragment}
      */
     private void addFactsListFragment(){
         getSupportFragmentManager().beginTransaction()

@@ -11,9 +11,9 @@
         <shape>
             <gradient
                 android:angle="90"
-                android:centerColor="@color/facts.item.center_color"
-                android:endColor="@color/facts.item.end_color"
-                android:startColor="@color/facts.item.start_color" />
+                android:centerColor="@color/fact.item.center_color"
+                android:endColor="@color/fact.item.end_color"
+                android:startColor="@color/fact.item.start_color" />
         </shape>
     </item>
 

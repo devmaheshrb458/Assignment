@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
  * @author Mahesh R Bhatkande (mahesh.bhatkande@infosys.com)
  * @since 14 Apr, 2018
  */
-public class Facts {
+public class Fact {
 
     @SerializedName("title")
     private String title;

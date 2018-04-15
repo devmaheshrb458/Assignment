@@ -1,6 +1,5 @@
 package com.assignment.facts.repository;
 
-import com.assignment.facts.dto.Facts;
 import com.assignment.facts.dto.FactsResponse;
 import com.assignment.network.ApiListener;
 
@@ -14,16 +13,26 @@ public class FactsRepository {
 
     private FactsRemoteRepository factsRemoteRepository;
 
-    public FactsRepository(){
+    public FactsRepository() {
         this.factsRemoteRepository = new FactsRemoteRepository();
     }
 
     /**
-     * Load facts from remote.
+     * Get facts from remote.
      *
      * @param apiListener HTTP call listener
      */
-    public void loadFactsFromRemote(ApiListener<FactsResponse> apiListener){
-        this.factsRemoteRepository.loadFacts(apiListener);
+    public void getFactsFromRemote(ApiListener<FactsResponse> apiListener) {
+        this.factsRemoteRepository.getFacts(apiListener);
     }
+
+    /**
+     * Refresh facts from remote.
+     *
+     * @param apiListener HTTP call listener
+     */
+    public void refreshFactsFromRemote(ApiListener<FactsResponse> apiListener) {
+        this.factsRemoteRepository.refreshFacts(apiListener);
+    }
+
 }

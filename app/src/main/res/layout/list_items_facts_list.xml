@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="@dimen/facts.list_item.corner_radius"
-    app:cardElevation="@dimen/facts.list_item.elevation">
+    app:cardCornerRadius="@dimen/fact.list_item.corner_radius"
+    app:cardElevation="@dimen/fact.list_item.elevation">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
 
         <ImageView
             android:id="@+id/imgRightArrow"
-            android:layout_width="@dimen/facts.list_item.right_arrow.width"
+            android:layout_width="@dimen/fact.list_item.right_arrow.width"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
@@ -38,8 +38,8 @@
 
         <ImageView
             android:id="@+id/imageFact"
-            android:layout_width="@dimen/facts.list_item.image.width"
-            android:layout_height="@dimen/facts.list_item.image.height"
+            android:layout_width="@dimen/fact.list_item.image.width"
+            android:layout_height="@dimen/fact.list_item.image.height"
             android:layout_alignEnd="@id/textFactTitle"
             android:layout_alignRight="@id/textFactTitle"
             android:layout_below="@id/textFactTitle"

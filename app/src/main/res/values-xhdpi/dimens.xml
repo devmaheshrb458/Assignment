@@ -18,10 +18,10 @@
     <dimen name="text.large">16sp</dimen>
 
     <!-- Facts lists-->
-    <dimen name="facts.list_item.image.height">85dp</dimen>
-    <dimen name="facts.list_item.image.width">105dp</dimen>
-    <dimen name="facts.list_item.right_arrow.width">14dp</dimen>
-    <dimen name="facts.list_item.corner_radius">4dp</dimen>
-    <dimen name="facts.list_item.elevation">4dp</dimen>
+    <dimen name="fact.list_item.image.height">85dp</dimen>
+    <dimen name="fact.list_item.image.width">105dp</dimen>
+    <dimen name="fact.list_item.right_arrow.width">14dp</dimen>
+    <dimen name="fact.list_item.corner_radius">4dp</dimen>
+    <dimen name="fact.list_item.elevation">4dp</dimen>
 
 </resources>
