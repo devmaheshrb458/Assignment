@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
     app:cardCornerRadius="@dimen/fact.list_item.corner_radius"
-    app:cardElevation="@dimen/fact.list_item.elevation">
+    app:cardElevation="@dimen/fact.list_item.elevation"
+    app:cardUseCompatPadding="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_fact_list_item"
+        android:background="@drawable/background_fact_list_item"
         android:padding="@dimen/widget.padding.medium">
 
         <ImageView
@@ -25,7 +29,7 @@
 
         <TextView
             android:id="@+id/textFactTitle"
-            style="@style/TextAppearance.aero.large"
+            style="@style/TextAppearance.primary.xlarge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/widget.margin.small"
@@ -50,7 +54,7 @@
 
         <TextView
             android:id="@+id/textFactDescription"
-            style="@style/TextAppearance.medium"
+            style="@style/TextAppearance.secondary.medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/textFactTitle"

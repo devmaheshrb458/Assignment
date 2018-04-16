@@ -4,36 +4,49 @@
     <style name="AppToolbar" parent="Base.V7.Widget.AppCompat.Toolbar">
         <item name="android:background">@color/colorPrimary</item>
         <item name="elevation">4dp</item>
+        <item name="titleTextColor">@android:color/white</item>
     </style>
 
     <!-- Text Appearance -->
-    <style name="TextAppearance" parent="TextAppearance.AppCompat"/>
-    <style name="TextAppearance.small">
+    <style name="TextAppearance" parent="TextAppearance.AppCompat" />
+
+    <!-- Primary text appearance -->
+    <style name="TextAppearance.primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.primary.small">
         <item name="android:textSize">@dimen/text.small</item>
     </style>
-    <style name="TextAppearance.medium">
+
+    <style name="TextAppearance.primary.medium">
         <item name="android:textSize">@dimen/text.medium</item>
     </style>
-    <style name="TextAppearance.large">
+
+    <style name="TextAppearance.primary.large">
         <item name="android:textSize">@dimen/text.large</item>
     </style>
 
-    <!-- Text with aero color -->
-    <style name="TextAppearance.aero">
-        <item name="android:textColor">@color/colorAero</item>
+    <style name="TextAppearance.primary.xlarge">
+        <item name="android:textSize">@dimen/text.xlarge</item>
     </style>
-    <style name="TextAppearance.aero.small">
+
+    <!-- Secondary text Appearance -->
+    <style name="TextAppearance.secondary">
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.secondary.small">
         <item name="android:textSize">@dimen/text.small</item>
     </style>
-    <style name="TextAppearance.aero.medium">
+
+    <style name="TextAppearance.secondary.medium">
         <item name="android:textSize">@dimen/text.medium</item>
     </style>
-    <style name="TextAppearance.aero.large">
+
+    <style name="TextAppearance.secondary.large">
         <item name="android:textSize">@dimen/text.large</item>
     </style>
-
-
-
 
 
 </resources>

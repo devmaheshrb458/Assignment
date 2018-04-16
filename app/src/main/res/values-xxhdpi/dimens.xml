@@ -16,6 +16,7 @@
     <dimen name="text.small">12sp</dimen>
     <dimen name="text.medium">14sp</dimen>
     <dimen name="text.large">18sp</dimen>
+    <dimen name="text.xlarge">20sp</dimen>
 
     <!-- Facts lists-->
     <dimen name="fact.list_item.image.height">90dp</dimen>

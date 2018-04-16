@@ -86,7 +86,8 @@ public class FactsListFragment extends SupportFragment {
         this.recycleListFacts.setAdapter(this.factsAdapter);
 
         //Configure swipeRefreshFacts
-        this.swipeRefreshFacts.setColorSchemeResources(R.color.colorAero);
+        this.swipeRefreshFacts.setColorSchemeResources(R.color.colorSwipeToRefresh1,
+                R.color.colorSwipeToRefresh2, R.color.colorSwipeToRefresh3);
         this.swipeRefreshFacts.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {

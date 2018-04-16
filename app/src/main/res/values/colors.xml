@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFC4C5C6</color>
-    <color name="colorPrimaryDark">#FF8A8B8C</color>
-    <color name="colorAccent">#FFB8BABC</color>
+    <color name="colorPrimary">#FF549FD8</color>
+    <color name="colorPrimaryDark">#FF45A1E8</color>
+    <color name="colorAccent">#BB549FD8</color>
+    <color name="colorPrimary.Inverse">#FFCBE0EF</color>
+    <color name="colorSecondary">@android:color/black</color>
+    <color name="colorSecondary.Inverse">#22000000</color>
+    <color name="colorControlHighlight">#22000000</color>
 
-    <!-- State colors -->
-    <color name="color.statePressed">#FFF2F4F7</color>
-
-    <color name="colorAero">#FF549FD8</color>
+    <!-- Selector color -->
+    <color name="colorStatePressed">#22000000</color>
 
     <!-- Facts item background color -->
     <color name="fact.item.start_color">#FFF2F4F7</color>
     <color name="fact.item.center_color">#FFFCFCFC</color>
     <color name="fact.item.end_color">#FFFCFCFC</color>
+
+    <!-- SwipeToRefresh color scheme -->
+    <color name="colorSwipeToRefresh1">#AA549FD8</color>
+    <color name="colorSwipeToRefresh2">#DD549FD8</color>
+    <color name="colorSwipeToRefresh3">#FF549FD8</color>
 
 
 </resources>

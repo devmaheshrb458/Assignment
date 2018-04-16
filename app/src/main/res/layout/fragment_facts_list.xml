@@ -24,12 +24,12 @@
 
     <TextView
         android:id="@+id/textErrorMessage"
-        style="@style/TextAppearance.medium"
+        style="@style/TextAppearance.secondary.medium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_primary"
+        android:background="@drawable/selector_secondary"
         android:gravity="center"
-        android:padding="@dimen/widget.padding.medium"
+        android:padding="@dimen/widget.padding.large"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
